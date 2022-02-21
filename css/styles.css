@@ -1,0 +1,121 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #fff;
+  --address-link-color: rgba(255, 255, 255, 0.6);
+  --logo-black: #000;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.nav .logo {
+  color: var(--logo-black);
+}
+
+.element {
+  color: var(--accent-color);
+}
+
+.contacts .link {
+  color: var(--primary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero-title {
+  color: var(--white-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.button.main {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* features */
+.features .title {
+  color: var(--title-text-color);
+}
+
+/* Наша команда */
+.team-member-name {
+  color: var(--title-text-color);
+}
+
+/* Футер */
+.footer-logo {
+  color: var(--white-color);
+}
+
+.address-physical {
+  color: var(--white-color);
+}
+
+.address .link {
+  color: var(--address-link-color);
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
+
+/* Портфолио */
+
+.button.filter {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+
+.button.filter:hover,
+.button.filter:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.project-name {
+  color: var(--title-text-color);
+}
